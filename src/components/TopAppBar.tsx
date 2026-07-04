@@ -134,7 +134,7 @@ export default function TopAppBar({ activeTab, onNavigate, onOpenSOSReport }: To
         </nav>
         
         <div className="mt-auto pt-6 border-t border-gray-100 text-center text-xs text-gray-400">
-          <p>© 2026 INGD Moçambique</p>
+          <p>© 2026 SOS Moçambique CYBER_FRIENDS</p>
           <p className="mt-1">Serviço de Emergência Humanitária</p>
         </div>
       </aside>
