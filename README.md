@@ -18,3 +18,4 @@ View your app in AI Studio: https://ai.studio/apps/37629691-e1b7-405c-8b13-e90ef
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+# sos-moz-hackathon
