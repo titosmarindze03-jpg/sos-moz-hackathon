@@ -13,6 +13,7 @@
 
 - substituição de `frontend/vite.config.ts` por `frontend/vite.config.mjs` para evitar falha no carregamento da configuração do Vite;
 - ajuste do script `frontend` de desenvolvimento para usar `127.0.0.1:5173`, compatível com o ambiente validado;
+- remoção de `frontend/.vite/`, que era apenas cache temporária;
 - nenhuma alteração funcional à aplicação.
 
 ### Arquitectura do repositório
