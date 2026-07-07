@@ -48,10 +48,10 @@ O projeto atual é um frontend em `React + TypeScript + Vite`.
 
 Elementos já existentes que devem ser considerados antes de criar algo novo:
 
-- Componentes em `src/components/`
-- Serviços em `src/services/`
-- Modelos em `src/models/index.ts`
-- Aplicação principal em `src/App.tsx`
+- Componentes em `frontend/src/components/`
+- Serviços em `frontend/src/services/`
+- Modelos em `frontend/src/models/index.ts`
+- Aplicação principal em `frontend/src/App.tsx`
 
 ## Princípio central
 

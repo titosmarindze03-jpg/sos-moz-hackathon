@@ -9,11 +9,11 @@
 
 ## Organização observada
 
-- composição principal em `App.tsx`;
-- vistas em `src/components/`;
-- serviços locais em `src/services/`;
-- modelos em `src/models/index.ts`;
-- estilos globais em `src/index.css`.
+- composição principal em `frontend/src/App.tsx`;
+- vistas em `frontend/src/components/`;
+- serviços locais em `frontend/src/services/`;
+- modelos em `frontend/src/models/index.ts`;
+- estilos globais em `frontend/src/index.css`.
 
 ## Características
 
