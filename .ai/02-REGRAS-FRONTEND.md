@@ -8,20 +8,20 @@ O projeto usa `React`, `TypeScript` e `Vite`.
 
 Estrutura já existente a reutilizar:
 
-- `src/App.tsx`
-- `src/components/`
-- `src/services/`
-- `src/models/index.ts`
-- `src/index.css`
+- `frontend/src/App.tsx`
+- `frontend/src/components/`
+- `frontend/src/services/`
+- `frontend/src/models/index.ts`
+- `frontend/src/index.css`
 
 ## Regras obrigatórias
 
 - Antes de criar um componente novo, verificar se um componente existente pode ser reutilizado ou expandido.
 - Antes de criar lógica nova no frontend, verificar se um serviço existente já cobre parte da necessidade.
-- Respeitar os contratos tipados existentes em `src/models/index.ts`.
-- Manter consistência com o fluxo atual baseado em `activeTab` e navegação interna existente em `src/App.tsx`, salvo autorização explícita para refatorar isso.
+- Respeitar os contratos tipados existentes em `frontend/src/models/index.ts`.
+- Manter consistência com o fluxo atual baseado em `activeTab` e navegação interna existente em `frontend/src/App.tsx`, salvo autorização explícita para refatorar isso.
 - Não introduzir estados, props ou fluxos redundantes.
-- Não duplicar lógica de acesso a dados que já exista em `src/services/`.
+- Não duplicar lógica de acesso a dados que já exista em `frontend/src/services/`.
 - Não introduzir comportamento visual que contradiga o comportamento funcional atual sem documentação.
 - Não criar comportamento oculto no frontend.
 - Não implementar fluxos novos de interface sem pedido explícito.
@@ -29,7 +29,7 @@ Estrutura já existente a reutilizar:
 
 ## Reutilização obrigatória
 
-- Reutilizar componentes de `src/components/` antes de criar novos.
+- Reutilizar componentes de `frontend/src/components/` antes de criar novos.
 - Reutilizar serviços como `familyService`, `emergencyService` e `mapService` antes de criar novos serviços.
 - Reutilizar tipos como `Person`, `Alert`, `SafeZone`, `HelpRequest` e `RescueReport` antes de inventar novas estruturas equivalentes.
 

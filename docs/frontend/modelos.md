@@ -2,6 +2,7 @@
 
 ## Modelos actuais
 
+- `frontend/src/models/index.ts`
 - `Person`
 - `Alert`
 - `SafeZone`

@@ -14,10 +14,10 @@ Este projeto representa um sistema de resposta humanitária.
 
 ## Estrutura funcional observada
 
-- `src/App.tsx` controla a navegação principal por separadores internos.
-- `src/components/` contém as vistas e componentes principais.
-- `src/services/` centraliza dados e operações do domínio atual.
-- `src/models/index.ts` define os contratos tipados usados no frontend.
+- `frontend/src/App.tsx` controla a navegação principal por separadores internos.
+- `frontend/src/components/` contém as vistas e componentes principais.
+- `frontend/src/services/` centraliza dados e operações do domínio atual.
+- `frontend/src/models/index.ts` define os contratos tipados usados no frontend.
 
 ## Serviços existentes
 
@@ -40,5 +40,5 @@ Este projeto representa um sistema de resposta humanitária.
 
 - Se a arquitetura mudar, este ficheiro deve ser revisto.
 - Se novos serviços forem introduzidos, este ficheiro deve ser atualizado.
-- O repositório não contém atualmente a pasta `docs/`, por isso nenhuma IA deve fingir que essa documentação já existe.
+- O frontend já não está na raiz; está agora concentrado em `frontend/`.
 - A documentação futura deve distinguir explicitamente entre funcionalidades reais, simuladas e planeadas.

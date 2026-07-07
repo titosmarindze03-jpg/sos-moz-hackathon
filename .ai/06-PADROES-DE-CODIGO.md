@@ -13,10 +13,10 @@ O código deve seguir padrões consistentes com o que já existe no projeto.
 
 ## Estrutura atual a respeitar
 
-- Componentes em `src/components/`
-- Serviços em `src/services/`
-- Modelos em `src/models/index.ts`
-- Composição principal em `src/App.tsx`
+- Componentes em `frontend/src/components/`
+- Serviços em `frontend/src/services/`
+- Modelos em `frontend/src/models/index.ts`
+- Composição principal em `frontend/src/App.tsx`
 
 ## Boas práticas obrigatórias
 

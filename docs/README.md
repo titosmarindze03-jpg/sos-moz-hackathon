@@ -39,6 +39,14 @@ O `SOS Moçambique` é actualmente um protótipo frontend-first para resposta hu
 - operação: `docs/operations/`
 - instruções para IA: `docs/ai/`
 
+## Estrutura actual da raiz
+
+- `frontend/`: aplicação React + Vite actual
+- `backend/`: reserva para futura implementação
+- `docs/`: documentação oficial
+- `.ai/`: regras internas para IA
+- `README.md`: ficheiro de topo do repositório
+
 ## Convenções utilizadas
 
 - `Implementado`: existe no código actual.
